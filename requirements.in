@@ -1,0 +1,6 @@
+nltk
+pandas
+streamlit
+requests
+gensim
+markovify

@@ -3,3 +3,5 @@ bin
 include
 pyvenv.cfg
 .ipynb_checkpoints
+proust_markov.ipynb
+Dockerfile
