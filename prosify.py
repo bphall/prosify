@@ -9,7 +9,7 @@ text = open("ulysses.txt", "r").read()
 text_model = markovify.Text(text)
 
 st.title('Markov Prose Generator for Ulysses, by James Joyce')
-number = st.selectbox("Type in the number of Markov-generated sentences you'd like:",
+number = st.selectbox("Select the number of sentences you'd like:",
                       np.arange(1, 21, 1))
 
 for i in range(number):
